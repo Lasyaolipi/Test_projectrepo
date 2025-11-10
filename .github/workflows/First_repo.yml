@@ -9,6 +9,5 @@ jobs:
     steps:
       - name: Print greeting message
         run: echo "Hello World!"
-
       - name: Print goodbye message
         run: echo "Good Bye!"
