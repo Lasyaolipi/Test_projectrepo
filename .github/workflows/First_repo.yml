@@ -1,0 +1,11 @@
+name: First_repo
+on: workflow_dispatch
+jobs:
+  first_job:
+    run-on: ubuntu-latest
+    steps:
+      - name: print greating message
+        run : echo "Hello World!"
+      - name: print good Bye message
+        run : echo "Good Bye!"
+        
